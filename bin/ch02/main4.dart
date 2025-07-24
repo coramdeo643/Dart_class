@@ -14,8 +14,8 @@ void main() {
    */
   String? name = getName();
   // 문자열 값을 무조건 소문자로 변형을 하고 싶다면
-  String resultNname = name?.toLowerCase() ?? "HONG".toLowerCase();
-  print('resultName : $resultNname');
+  String resultName = name?.toLowerCase() ?? "HONG".toLowerCase();
+  print('resultName : $resultName');
 
   String displayName = name ?? 'Unknown';
   // if (name != null) {
